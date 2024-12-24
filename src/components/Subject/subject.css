@@ -1,0 +1,17 @@
+
+main {
+  max-width: 60em;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 0.5em; 
+}
+
+main details iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+}

@@ -1,0 +1,57 @@
+label {
+  font-size: inherit;
+}
+
+article button {
+  outline: none;
+  border: none;
+  color: var(--accent);
+  display: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  background: inherit;
+  color: inherit;
+  font-size: inherit;
+  box-sizing: border-box;
+}
+
+input {
+  
+  border: none;
+  border-bottom: 1px solid var(--fg);
+  width: 3em;
+  x-margin: 0 0.3em;
+  x-padding:0 0.5em;
+}
+
+
+label:focus,
+label:focus-visible,
+input:focus, input:focus-visible {
+  outline: none;
+  color: var(--accent)
+}
+
+input[inputMode="numeric"] {
+  text-align: right;
+}
+
+input.short {
+  width: 3em; 
+}
+
+input.long {
+  width: 10em;
+}
+
+input.wide {
+ width: 90vw;
+ padding: 0 0;
+ margin: 0 0; 
+}
+

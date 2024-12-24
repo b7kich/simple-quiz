@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  }
+
+aside {
+  color: var(--accent);
+}
+
+aside.terminal {
+  color: var(--fg)
+}
+
+aside.pending {
+  color: var(--bg);
+  visibility: hidden;
+}
+  
+.material-icons
+{
+  font-size: inherit;  
+  line-height: 1.25;
+  vertical-align: middle;
+}
+  

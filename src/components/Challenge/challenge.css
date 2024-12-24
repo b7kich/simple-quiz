@@ -1,0 +1,15 @@
+  label {
+      font-size: inherit;
+  }
+
+  label:focus,
+  label:focus-visible {
+      outline: none;
+      color: var(--accent)
+  }
+
+  article button {
+      outline: none;
+      border: none;
+      color: var(--accent);
+  }
