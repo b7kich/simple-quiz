@@ -1,9 +1,9 @@
 import { QuestionProps } from './components/Question/Question';
 import { Subject, SubjectProps } from './components/Subject/Subject'
-import { SSeasons } from './components/Subject/Subject.stories'
+import { SDefault } from './components/Subject/Subject.stories'
 import { log } from './modules/util'
 
-const fallback = SSeasons.args;
+const fallback = SDefault.args;
 
 const params = (new URL(window.location.href)).searchParams;
 

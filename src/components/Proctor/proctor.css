@@ -23,7 +23,7 @@ article {
   }
   
   
-  @media (min-width: 200px) {
+  @media (min-width: 12em) {
   
     article {
       display: flex; 
@@ -44,7 +44,7 @@ article {
     
   }
   
-  @media (max-width: 200px) {
+  @media (max-width: 12em) {
   
   
     label {

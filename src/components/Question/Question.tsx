@@ -168,6 +168,7 @@ export const Question = ({ id, data, active, status=STATUS.PENDING, onSubmit = u
               spellCheck="false"
               autoCorrect="off"
               autoComplete='none'
+              writingsuggestions="false"
               disabled={isTerminal(status)}
               onChange={handleReactChange}
               onKeyUp={handleKey}

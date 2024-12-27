@@ -30,10 +30,15 @@ SDefault.args = {
   <h5>Heading 5</h5>
   <h6>Heading 6</h6>
   
+  ![an SVG](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgODAwIDQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGlkPSJ0YXJnZXQiIGN4PSIyMDAiIGN5PSIyMDAiIHI9IjUwIiBjbGFzcz0iZHJvcHpvbmUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2EzNSIgc3Ryb2tlLXdpZHRoPSI1IiAvPjwvc3ZnPg==)
+
   Shows various <b>example</b> questions. <br /> <code>abcdefghijklmnopqrstuvwxyz</code>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  - [A link](https://www.xznas8reknadyere.ppmedeairhe/)
+  - [A visited link](https://www.google.com/)
   `,
-  challenges: [QDefault.args, QColon.args, QEllipsis.args, QNumber.args, QMath.args, QFill.args, QFloat.args, QLong.args] as any as QuestionProps[]
+  challenges: [QColon.args, QEllipsis.args, QNumber.args, QMath.args, QFill.args, QFloat.args, QLong.args] as any as QuestionProps[]
 };
 
 
